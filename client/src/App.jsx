@@ -17,6 +17,8 @@ function App() {
     fetchTasks();
   }, []);
 
+  let sangam = 'unused variable here';
+  
   const fetchTasks = async () => {
     try {
       setLoading(true);
