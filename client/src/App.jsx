@@ -16,8 +16,6 @@ function App() {
   useEffect(() => {
     fetchTasks();
   }, []);
-
-  let sangam = 'unused variable here';
   
   const fetchTasks = async () => {
     try {
